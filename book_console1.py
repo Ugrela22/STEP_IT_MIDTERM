@@ -26,7 +26,6 @@ class Book:
 
 
 
-# book_manager.py
 
 import json
 import os
@@ -118,7 +117,6 @@ class BookManager:
         print("-" * 80)
 
 
-# validation.py
 
 def validate_title(title):
     if not title or title.strip() == "":
@@ -148,7 +146,6 @@ def validate_year(year_str):
         return False, "გამოცემის წელი უნდა იყოს რიცხვი!"
 
 
-# user_interface.py
 
 def print_menu():
     print("\n" + "=" * 80)
@@ -258,7 +255,6 @@ def display_search_results(results, search_criteria):
     print("-" * 80)
 
 
-# main.py
 
 def main():
     print("=" * 80)
