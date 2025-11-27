@@ -100,7 +100,8 @@ The application comes with pre-loaded Georgian literary classics:
 STEP_IT_MIDTERM/
 ├── ATM.py                 # ATM system implementation
 ├── calculator.py          # Advanced calculator
-├── book_console1.py       # Book management system
+├── book_console.py        # Book management system (original)
+├── book_console1.py       # Book management system (updated)
 ├── users.txt             # ATM user data storage
 ├── books_data.json       # Book library data storage
 └── README.md             # Project documentation
