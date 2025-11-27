@@ -1,5 +1,3 @@
-
-
 class Book:
     def __init__(self, title, author, publication_year):
         self.title = title
@@ -148,8 +146,6 @@ def validate_year(year_str):
         return False, "გამოცემის წელი უნდა იყოს რიცხვი!"
 
 
-# user_interface.py
-
 def print_menu():
     print("\n" + "=" * 80)
     print("📚 წიგნების მართვის სისტემა".center(80))
@@ -256,9 +252,6 @@ def display_search_results(results, search_criteria):
     for i, book in enumerate(results, 1):
         print(f"{i}. {book}")
     print("-" * 80)
-
-
-# main.py
 
 def main():
     print("=" * 80)
