@@ -2,7 +2,7 @@
 
 A collection of three Python console applications with Georgian language interfaces, developed as part of the STEP IT midterm project.
 
-## Projects Overview
+## Projects Overview 
 
 This repository contains three main applications:
 
