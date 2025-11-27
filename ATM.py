@@ -1,5 +1,4 @@
 import os
-
 class ATM:
     def __init__(self):
         self.file = "users.txt"
